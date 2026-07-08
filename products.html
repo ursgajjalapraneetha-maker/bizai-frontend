@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - BizAI</title>
+
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <strong>BizAI</strong>
+
+        <a href="index.html">Home</a>
+        <a href="customers.html">Customers</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="login.html">Login</a>
+        <a href="products.html">Products</a>
+    </nav>
+</header>
+
+<main>
+
+<h1>Products</h1>
+
+<section class="card">
+
+<h2>Add Product</h2>
+
+<form>
+
+<label for="product">Product Name</label>
+<input id="product" name="product" type="text" required>
+
+<label for="category">Category</label>
+<input id="category" name="category" type="text" required>
+
+<label for="price">Price</label>
+<input id="price" name="price" type="number" required>
+
+<label for="quantity">Quantity</label>
+<input id="quantity" name="quantity" type="number" required>
+
+<button type="submit">Add Product</button>
+
+</form>
+
+</section>
+
+<section class="card">
+
+<h2>All Products</h2>
+
+<div class="overflow-x-auto">
+
+<table>
+
+<caption>Products</caption>
+
+<thead>
+
+<tr>
+<th>Name</th>
+<th>Category</th>
+<th>Price</th>
+<th>Quantity</th>
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>Laptop</td>
+<td>Electronics</td>
+<td>50000</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>Keyboard</td>
+<td>Accessories</td>
+<td>1200</td>
+<td>40</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</section>
+
+</main>
+
+</body>
+</html>

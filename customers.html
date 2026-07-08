@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customers - BizAI</title>
+     <link rel="stylesheet" href="static/css/style.css"
+     <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <strong>BizAI</strong>
+
+            <a href="index.html">Home</a>
+            <a href="customers.html">Customers</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Customers</h1>
+
+        <section>
+
+            <h2>Add a Customer</h2>
+
+            <form>
+
+                <label for="name">Name</label>
+                <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    required>
+
+                <label for="email">Email</label>
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    required>
+
+                <label for="phone">Phone</label>
+                <input
+                    id="phone"
+                    name="phone"
+                    type="tel">
+
+                <button type="submit">
+                    Add Customer
+                </button>
+
+            </form>
+
+        </section>
+
+        <section>
+
+            <h2>All Customers</h2>
+
+            <table>
+
+                <caption>
+                    Customers of your business
+                </caption>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>Anita Rao</td>
+                        <td>anita@shop.in</td>
+                        <td>9876543210</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Ravi Kumar</td>
+                        <td>ravi@store.in</td>
+                        <td>9123456780</td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
