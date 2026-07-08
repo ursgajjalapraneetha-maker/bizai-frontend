@@ -105,3 +105,11 @@ thead th {
     background: #eef2f7;
     color: var(--brand-dark);
 }
+form {
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+}
